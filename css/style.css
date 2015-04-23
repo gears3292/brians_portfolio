@@ -40,7 +40,8 @@ main {
 
 #contact {
     float: right;
-    padding: 0 1% 0 0;
+    padding-right: 1%;
+    padding-top: 1%;
 }
 #contact a {
     text-decoration: none;
@@ -63,6 +64,7 @@ aside {
 
 aside img {
     border-radius: 10em;
+    margin-top: 5%;
 }
 
 aside ul{
