@@ -1,5 +1,8 @@
+.tab-list {
+   background-color: rgba(0,0,0,0);
+   padding-left: 0;
+}
 #content-tab-panel ul{
-    padding: 0 0 0 25%;
     margin-bottom: 1px;
 }
 
@@ -22,7 +25,16 @@
 #content-tab-panel li.active {
     padding: 1%;
     display: inline-block;
-    border-bottom: 3px solid #e53935;
+    border-bottom: 2px solid #e53935;
+}
+
+#content-tab-panel li:hover {
+    border-bottom: 2px solid #e53935;
+    -moz-transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    transition: 0.2s linear;
 }
 
 .tab-panel {
@@ -31,7 +43,6 @@
 
 .tab-panel.active {
     display: block;
-    background-color: #fafafa;
     border-radius: 0 0 0 0;
     height: 90vh;
 }
