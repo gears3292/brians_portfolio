@@ -1,3 +1,7 @@
+#image-gallery-container {
+    min-height: 50vh;
+    background-color: grey;
+}
 #photo-viewer {
     position: relative;
     height: 300px;
